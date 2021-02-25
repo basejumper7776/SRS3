@@ -1,0 +1,22 @@
+/var/
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+/app/config/parameters.yml
+/app/config/parameters.yml.dist
+/phpunit.xml
+/vendor/
+/web/bundles/
+/nbproject/
+/node_modules/*
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
